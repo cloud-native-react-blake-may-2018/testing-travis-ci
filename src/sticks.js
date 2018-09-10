@@ -18,7 +18,7 @@ stick lengths     length of cut     sticks before cut
 - - - - - -         done              done
 */
 function solution(arr){
-  if ( typeof(arr) !== 'object' || arr === null) {
+  if ( typeof(arr) !== 'object' || arr === null || typeof(arr.length) !== 'number') {
     return [];
   }
   let result = [];
